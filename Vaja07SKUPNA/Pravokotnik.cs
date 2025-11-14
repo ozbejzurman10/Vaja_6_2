@@ -22,6 +22,15 @@ namespace Vaja07SKUPNA
             this.b = b;
         }
 
+        public void NastavitiVrednosti()
+        {
+            Console.Write("Vnesi dolzino prve stranice: ");
+            a = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Vnesi dolzino druge stranice: ");
+            b = Convert.ToDouble(Console.ReadLine());
+
+        }
+
 
     }
 }
