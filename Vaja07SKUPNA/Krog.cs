@@ -25,5 +25,15 @@ namespace Vaja07SKUPNA
             Console.WriteLine("Vnesi velikost R:");
             r = Convert.ToDouble(Console.ReadLine());
         }
+
+        public double Obseg()
+        {
+            return 2 * Math.PI * r;
+        }
+
+        public double Ploscina()
+        {
+            return Math.PI * r * r;
+        }
     }
 }
