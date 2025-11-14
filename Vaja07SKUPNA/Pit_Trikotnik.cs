@@ -23,5 +23,14 @@ namespace Vaja07SKUPNA
             this.b = b;
             c = Math.Sqrt(a * a + b * b);
         }
+        public void NastaviStranice()
+        {
+            Console.WriteLine("Vnesi dolzino prve stranice: ");
+            a = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Vnesi dolzino druge stranice: ");
+            b = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Vnesi dolzino tretje stranice: ");
+            c = Convert.ToDouble(Console.ReadLine());
+        }
     }
 }
