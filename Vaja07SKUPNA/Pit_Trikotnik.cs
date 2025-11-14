@@ -8,5 +8,8 @@ namespace Vaja07SKUPNA
 {
     class Pit_Trikotnik
     {
+        private double a;
+        private double b;
+        private double c;
     }
 }
