@@ -28,8 +28,18 @@ namespace Vaja07SKUPNA
             a = Convert.ToDouble(Console.ReadLine());
             Console.Write("Vnesi dolzino druge stranice: ");
             b = Convert.ToDouble(Console.ReadLine());
-
         }
+
+        public double Obseg()
+        {
+            return 2 * (a + b);
+        }
+
+        public double Ploscina()
+        {
+            return a * b;
+        }
+        
 
 
     }
