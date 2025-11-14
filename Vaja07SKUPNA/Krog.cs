@@ -20,9 +20,10 @@ namespace Vaja07SKUPNA
             this.r = r;
         }
 
-        public void NastaviR(double r)
+        public void NastaviR()
         {
-            this.r = r;
+            Console.WriteLine("Vnesi velikost R:");
+            r = Convert.ToDouble(Console.ReadLine());
         }
     }
 }
