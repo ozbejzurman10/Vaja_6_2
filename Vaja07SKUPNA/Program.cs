@@ -14,6 +14,16 @@ namespace Vaja07SKUPNA
             double b = 8;
             Pit_Trikotnik trikotnik = new Pit_Trikotnik(a, b);
             Console.WriteLine("Ploščina pravokotnega trikotnika s katetama {0} in {1} je {2}.", a, b, trikotnik.IzracunajPloscino());
+            //V osnovni datoteki Program.cs v metodi Main dodaj kodo,
+            //ki bo ustvarila dva objekta razreda Krog.
+            //Prvi naj ima vrednost r enako 5, drugi pa 6.
+            //Z uporabo metode na standardni izhod izpiši njegovo ploščino.
+
+            Krog krog1 = new Krog(5);
+            Krog krog2 = new Krog(6);
+
+            Console.WriteLine("Ploščina kroga s polmerom 5 je: " + krog1.Ploscina());
+            Console.WriteLine("Ploščina kroga s polmerom 6 je: " + krog2.Ploscina());
         }
     }
 }
