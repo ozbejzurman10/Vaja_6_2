@@ -9,5 +9,7 @@ namespace Vaja07SKUPNA
     class Krog
     {
 
+        private double r;
+
     }
 }
