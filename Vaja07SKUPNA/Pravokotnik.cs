@@ -8,5 +8,7 @@ namespace Vaja07SKUPNA
 {
     internal class Pravokotnik
     {
+        private double a;
+        private double b;
     }
 }
