@@ -32,5 +32,13 @@ namespace Vaja07SKUPNA
             Console.WriteLine("Vnesi dolzino tretje stranice: ");
             c = Convert.ToDouble(Console.ReadLine());
         }
+        public double IzracunajObseg()
+        {
+            return a + b + c;
+        }
+        public double IzracunajPloscino()
+        {
+            return (a * b) / 2;
+        }
     }
 }
