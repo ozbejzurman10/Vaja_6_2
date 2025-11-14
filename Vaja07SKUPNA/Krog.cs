@@ -19,5 +19,10 @@ namespace Vaja07SKUPNA
         {
             this.r = r;
         }
+
+        public void NastaviR(double r)
+        {
+            this.r = r;
+        }
     }
 }
