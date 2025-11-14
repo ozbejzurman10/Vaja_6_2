@@ -10,6 +10,14 @@ namespace Vaja07SKUPNA
     {
 
         private double r;
+        public Krog()
+        {
+            r = 1;
+        }
 
+        public Krog(double r)
+        {
+            this.r = r;
+        }
     }
 }
